@@ -163,41 +163,6 @@ graph LR
 
 > 首次运行需联网，约 20GB 下载量，耗时 15-30 分钟。
 
-### 方式二：双击 EXE（需已有环境）
-
-双击 `口播智能体.exe`，自动查找本机 conda 环境并启动。
-
-> 前提：已安装 Miniconda 并创建 `ip_agent` 环境。
-
-### 方式三：开发模式
-
-```bash
-conda activate ip_agent2
-python local_models/desktop_app.py
-```
-
-### 方式四：Gradio Web 版
-
-```bash
-conda activate ip_agent
-python local_models/app.py
-```
-
-浏览器访问 `http://localhost:7861`
-
----
-
-## 两种 EXE 对比
-
-| | 口播智能体.exe | 口播智能体env.exe |
-|---|---|---|
-| 大小 | ~7 MB | ~11 MB |
-| 检测已有环境 | ✅ | ✅ |
-| 自动下载 Miniconda | ❌ | ✅ |
-| 自动创建 conda 环境 | ❌ | ✅ |
-| 自动安装所有依赖 | ❌ | ✅ |
-| 适用场景 | 已配置好环境的机器 | 全新机器首次部署 |
-
 ---
 
 ## GPU 兼容性
