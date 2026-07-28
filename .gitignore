@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Conda / Virtual env
+.ip_agent_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+desktop_stderr.log
+
+# Media files (large binaries)
+media/downloads/
+media/outputs/
+media/inputs/figure/
+media/inputs/srt/
+media/inputs/tones/
+
+# Model weights (large binaries)
+pretrained_models/
+models/
+miniconda3/
+
+# MuseTalk repo (submodule or separate)
+MuseTalk_repo/
+
+# Browser profile
+.douyin_browser_profile/
+
+# Gradio
+.gradio/
+
+# Cache
+.musetalk_cache/
+__pycache__/
+
+# Pip env wheels
+files/
+
+# Executables
+*.exe
+*.spec
+
+# Temporary
+_temp/
+tmp/
+*.tmp
+
+# Test files
+local_models/test_*.py
+local_models/check_video.py
+local_models/_publish_debug_*.png
+
+# Scan scripts (temporary)
+scan_*.ps1
+
+# Qoder
+.qoder/
